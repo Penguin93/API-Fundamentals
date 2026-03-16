@@ -37,6 +37,13 @@ The accessibility of the system can be improved by reducing the amount of reques
 - Reliability:
 Data integrity will need to be adressed as outdated data would render the system purposeless.
 # Design
+## Gantt Chart
+
+## Structure Chart
+
+## Algorithms
+
+## Data Dictionary
 
 # Development
 
