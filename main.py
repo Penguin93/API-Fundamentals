@@ -4,6 +4,7 @@ def login():
         print("\nLogin to Weather API")
         print("1. Enter API key")
         print("2. I don't have an API key")
+        print("3. Skip")
         option = input("Choose an option: ")
 
         if option == "1":
@@ -11,9 +12,11 @@ def login():
             break
         elif option == "2":
             print("Sign up at https://www.weatherapi.com/ to receive an API key")
+        elif option == "3":
+            break
         else:
             print("Invalid choice. Please try again.")
-login()            
+          
 
 def main():
     while True:
@@ -39,5 +42,6 @@ def main():
         else:
             print("Invalid choice. Please try again.")
 
+login()
 if __name__ == "__main__":
     main()
