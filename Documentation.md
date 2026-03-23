@@ -38,15 +38,15 @@ The accessibility of the system can be improved by reducing the amount of reques
 Data integrity will need to be adressed as outdated data would render the system purposeless.
 # Design
 ## Gantt Chart
-
+https://lucid.app/lucidspark/d4873ae8-ff3f-440d-bd43-b97a3c7136c3/edit?invitationId=inv_4b4ff063-5e29-4f2e-9794-8420ab63644a
 ## Structure Chart
-
+https://lucid.app/lucidchart/1d3257fd-c981-4891-978d-e0262e1de5c4/edit?invitationId=inv_509bc7ad-de1f-44f9-b586-6b2d87372d52
 ## Algorithms
-
+https://lucid.app/lucidchart/a5dbf18d-f1fe-4879-a1ec-e520016d7ee4/edit?invitationId=inv_5f577885-567c-4f24-8f82-ee6d982ad34f
 ## Data Dictionary
 
 # Development
-
+![alt text](image.png)
 # Integration
 
 # Testing and Debugging
