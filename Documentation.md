@@ -44,11 +44,14 @@ https://lucid.app/lucidchart/1d3257fd-c981-4891-978d-e0262e1de5c4/edit?invitatio
 ## Algorithms
 https://lucid.app/lucidchart/a5dbf18d-f1fe-4879-a1ec-e520016d7ee4/edit?invitationId=inv_5f577885-567c-4f24-8f82-ee6d982ad34f
 ## Data Dictionary
-
+Variables: api_key, base_url, complete_url, response, location, region, country, temperature, condition
 # Development
 ![alt text](image.png)
 # Integration
-
+The code functions appropriately, but does not meet requirements.
 # Testing and Debugging
-
+Loading time of the code is low. The code does not meet the requirements listed in Requirements Definition. requirements.txt only has the requests module, which is the only module used in the program. The README.md is poor in quality, as it only provides a rough explanation of what the program does.
 # Maintenance
+Maintenance would play a major role in the continuation of this project. Many functions and variables don't work as intended, and further work would render the program as useful.
+# Total Evaluation
+Despite my efforts to get this code to work, I couldn't figure out how to make the weather API work. I'm disappointed as I wished to make a program that would meet the requirements I set out for myself, but my efforts were ultimately in vain. Overall, if I put more time and effort into this project, I would probably have a product of passable quality, but in the state that this program is in now, it's impossible for me to improve upon it in the limited time I left for myself.

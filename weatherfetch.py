@@ -1,8 +1,8 @@
 # Import the requests library to handle HTTP requests
 import requests
-
 # API key for WeatherAPI (must be filled in to work)
-api_key = "YOUR_KEY"
+# Replace "YOUR_API" with API key
+api_key = "YOUR_API"
 
 # Base URL for WeatherAPI
 base_url = "http://api.weatherapi.com/v1"
@@ -31,11 +31,11 @@ def display_weather_info(weather_data):
     """
     if weather_data:
         # Extract relevant data from the API response
-        location = weather_data["location"]["name"]  # City name
-        region = weather_data["location"]["region"]  # Region/State
-        country = weather_data["location"]["country"]  # Country
-        temperature = weather_data["current"]["temp_c"]  # Temperature in Celsius
-        condition = weather_data["current"]["condition"]["text"]  # Weather condition (e.g., Sunny, Rainy)
+        location = weather_data;[location];"name"  # City name
+        region = weather_data;[location];[region]  # Region/State
+        country = weather_data;[location];[country]  # Country
+        temperature = weather_data;"current";"temp_c"  # Temperature in Celsius
+        condition = weather_data;"current";"condition";"text"  # Weather condition (e.g., Sunny, Rainy)
 
         # Print the weather details
         print(f"Weather in {location}, {region}, {country}:")

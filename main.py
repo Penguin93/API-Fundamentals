@@ -4,19 +4,15 @@ def login():
         print("\nLogin to Weather API")
         print("1. Enter API key")
         print("2. I don't have an API key")
-        print("3. Skip")
         option = input("Choose an option: ")
 
         if option == "1":
-            api_key = input("Enter API key: ")
-            break
+            api_key == input("Enter API key: ")
+            return
         elif option == "2":
             print("Sign up at https://www.weatherapi.com/ to receive an API key")
-        elif option == "3":
-            break
         else:
             print("Invalid choice. Please try again.")
-          
 
 def main():
     while True:
@@ -29,18 +25,20 @@ def main():
 
         if choice == "1":
             city_name = input("Enter city name: ")
-            print(f"fetch_weather(city_name)") #Replace with function later
+            fetch_weather(city_name)
         elif choice == "2":
             weather_data = input('View Weather Data')
-            print(f"display_weather_info(weather_data)")#Replace with function later
+            display_weather_info(weather_data)
         elif choice == "3":
             city_name = input("Enter  name to remove: ")
-            print(f'Remove {city_name} from data list') #Replace with function later
+            (f'Remove {city_name} from data list') #Replace with function later
         elif choice == "4":
             print("Exiting System.")
             break
         else:
             print("Invalid choice. Please try again.")
+
+
 
 login()
 if __name__ == "__main__":
